@@ -2,10 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="Example Title">
-    <meta name="keywords" content="example, keywords, website">
-    <meta name="author" content="Your Name">
     <title>Website Title</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
@@ -46,9 +42,9 @@
 Адрес: Бизнес център 101, гр. Добрич, ул. Даме Груев 17
 <br> 
 Кабинет: 409<br>
-(Бившата сграда на банка ДСК - входът е срещу Арменската църква)+
+(Бившата сграда на банка ДСК - входът е срещу Арменската църква)
 <br><br>
-Телефон: 0876979050 <br>
+Телефон: 0876979050 Антония Манева <br>
 <br><br>
 Запазване на часове ежедневно между 12.00 - 13.00<br>
 

@@ -1,6 +1,6 @@
 /* Basic styles for the website */
 header{
-	background-color: #98FF98;
+	background-color: green ;
 }
 body {
     font-family: Arial, sans-serif;
