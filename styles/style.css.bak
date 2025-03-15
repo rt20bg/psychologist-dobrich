@@ -1,29 +1,36 @@
-/* Basic styles for the website */
-header{
-	background-color: green ;
-}
-body {
-    font-family: Arial, sans-serif;
-	
-	
+/* Основни стилове за хедъра и тялото */
+
+html {
     margin: 0;
     padding: 0;
-    /* background-color: #f4f4f4; */
-	background-color: LightBlue;
-	
 }
-h1{
-	
+
+/* Основни стилове за хедъра и тялото */
+header {
+    background-color: white;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: LightBlue;
+   
+	font-size:1.2vw;
+}
+
 
 .header-image {
-      width: 100%; 
-
-     /* height: auto - 30px; */
-	 max-height: 300px; /* Adjust the value as needed */
-     object-fit: contain; /* Or 'contain' */
+    width: 100%;
+    max-height: 300px;
+    object-fit: contain;
 }
 
+
+main {
+    padding: 80px;
+}
+/* Навигация */
 nav {
     background-color: #333;
     color: white;
@@ -35,25 +42,28 @@ nav {
     padding: 0;
     margin: 0;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .dropdown-menu > li {
     position: relative;
-    padding: 10px;
+    padding: 5px;
 }
 
 .dropdown-menu > li > a {
     color: white;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 8px 15px;
     display: block;
+    font-size: 16px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Hover effect for menu items */
+/* Стилове за ховър ефекти */
 .dropdown-menu > li > a:hover {
-    background-color: #555; /* Darker background on hover */
-    color: #FFD700; /* Gold text color on hover */
+    background-color: #555;
+    color: #FFD700;
 }
 
 .submenu {
@@ -68,34 +78,41 @@ nav {
 }
 
 .submenu li {
-    padding: 10px;
+    padding: 5px;
 }
 
 .submenu li a {
     color: white;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 8px 15px;
     display: block;
+    font-size: 18px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Hover effect for submenu items */
 .submenu li a:hover {
-    background-color: #666; /* Even darker background on hover */
-    color: #FFD700; /* Gold text color on hover */
+    background-color: #666;
+    color: #FFD700;
 }
 
-/* Show submenu on hover */
 .dropdown-menu > li:hover .submenu {
     display: block;
 }
 
-main {
-    padding: 80px;
-}
+/* Медия заявка за мобилни устройства */
+@media (max-width: 768px) {
+    .dropdown-menu {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
-footer {
-    text-align: center;
-    padding: 10px;
-    
+    .dropdown-menu > li {
+        padding: 5px;
+    }
+
+    .dropdown-menu > li > a {
+        padding: 6px 10px;
+        font-size: 10px;
+    }
 }
